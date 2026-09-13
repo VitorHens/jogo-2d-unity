@@ -28,7 +28,7 @@ O repositório utiliza a **Unity 2017.4.40f1** e contém diferentes cenas, inclu
 2. Clone o repositório:
 
 ```bash
-git clone https://github.com/VitorHens/projeto_2bi_jogos.git
+git clone https://github.com/VitorHens/jogo-2d-unity.git
 ```
 
 3. Abra a pasta do projeto pela Unity.

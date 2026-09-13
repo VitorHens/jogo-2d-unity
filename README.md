@@ -1,60 +1,54 @@
-# Jogo em Unity
+# 🎮 Jogo 2D em Unity
 
-Projeto de jogo desenvolvido na engine Unity utilizando a linguagem C#. O jogo possui mecânicas criadas por meio de scripts, como movimentação do personagem, colisões, animações e interação com elementos da fase.
+Projeto de jogo 2D desenvolvido com **Unity** e **C#**, criado para praticar lógica de programação, movimentação, colisões, animações e interação entre personagens e elementos da fase.
 
-O objetivo do projeto é aplicar conceitos de desenvolvimento de jogos, lógica de programação orientada a objetos e criação de mecânicas interativas dentro da Unity.
+O repositório utiliza a **Unity 2017.4.40f1** e contém diferentes cenas, incluindo fases com inimigos e batalhas contra chefes.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-* Movimentação do personagem;
-* Sistema de colisão;
-* Animações;
-* Interação com objetos da fase;
-* Sistema de inimigos e/ou bônus;
-* Scripts em C# para controlar as mecânicas do jogo.
+- Movimentação do personagem
+- Sistema de colisão
+- Animações
+- Interação com objetos do cenário
+- Inimigos e bônus
+- Diferentes cenas e fases
+- Batalhas contra chefes
+- Mecânicas controladas por scripts em C#
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias
 
-* Unity
-* C#
-* Unity Engine
-* Visual Studio ou Visual Studio Code
+- **Unity 2017.4.40f1**
+- **C#**
+- **Unity Engine**
+- **Visual Studio**
 
-## Como executar o projeto
+## ▶️ Como executar
 
-1. Instale a versão da Unity utilizada no projeto. Neste caso, utilize preferencialmente a **Unity 2017.4.40f1**.
-
-2. Baixe ou clone o repositório:
+1. Instale a **Unity 2017.4.40f1**.
+2. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+git clone https://github.com/VitorHens/projeto_2bi_jogos.git
 ```
 
-3. Abra o **Unity Hub**.
+3. Abra a pasta do projeto pela Unity.
+4. Aguarde a importação dos assets.
+5. Abra uma das cenas disponíveis em `Assets/`.
+6. Clique em **Play** para executar o jogo.
 
-4. Clique em **Open** e selecione a pasta principal do projeto — a pasta que contém `Assets`, `ProjectSettings` e `Packages`.
-
-5. Ao abrir a Unity, localize a cena principal dentro da pasta `Assets`.
-
-6. Dê dois cliques na cena com extensão `.unity` e clique no botão ▶ **Play** para testar o jogo.
-
-## Como gerar o jogo para Windows
-
-1. Na Unity, acesse `File > Build Settings`;
-2. Selecione **PC, Mac & Linux Standalone**;
-3. Escolha **Windows**;
-4. Clique em **Add Open Scenes** para adicionar a cena atual;
-5. Clique em **Build and Run**.
-
-## Estrutura do projeto
+## 📁 Estrutura principal
 
 ```text
-├── Assets/           # Cenas, scripts, imagens, sons e prefabs
+├── Assets/           # Cenas, scripts, sprites, animações e outros recursos
 ├── ProjectSettings/  # Configurações do projeto Unity
-├── Packages/         # Pacotes utilizados no projeto
+├── .gitignore        # Arquivos gerados localmente que não devem ser versionados
 └── README.md
 ```
 
-## Autor
+## 🎯 Objetivo do projeto
 
-Desenvolvido por Vitor Hens Fernandes Andrade, estudante do Ensino Médio Técnico em Informática.
+Praticar desenvolvimento de jogos 2D, programação em C#, organização de cenas, criação de mecânicas e uso dos principais componentes da Unity.
+
+---
+
+Desenvolvido por **Vitor Hens**.
